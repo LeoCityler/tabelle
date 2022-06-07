@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dhbw.tabelle.tableController">
+   <children>
+      <TableView fx:id="table" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="col_vorname" prefWidth="104.0" text="vorname" />
+          <TableColumn fx:id="col_nachname" prefWidth="97.0" text="nachname" />
+            <TableColumn fx:id="col_geschlecht" prefWidth="87.0" text="geschlecht" />
+            <TableColumn fx:id="col_vorkenntnisse" prefWidth="88.0" text="vorkenntnisse" />
+            <TableColumn fx:id="col_kurs" prefWidth="58.0" text="kurs" />
+            <TableColumn fx:id="col_unternehmen" prefWidth="165.0" text="unternehmen" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
